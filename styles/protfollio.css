@@ -12,6 +12,14 @@
   padding: 18px 35px 19px 36px;
   border-radius: 5px;
   border: none;
+  color: rgb(255, 255, 255);
+}
+
+/* header styles */
+.header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 /* nav styles */
@@ -44,4 +52,33 @@ nav ul li a {
 }
 .dark-2 {
   color: rgb(71, 71, 71);
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    width: 580px;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title {
+  color: rgb(24, 24, 24);
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.banner-description {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.banner-content button {
+    margin-right: 20px;
 }
